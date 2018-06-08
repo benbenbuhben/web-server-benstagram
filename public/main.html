@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>File Upload</h1>
+    <form action="https://localhost:3000/upload" method="POST" enctype="multipart/form-data">
+    <div class="file-field input-field">
+      <div class="btn grey">
+        <span>File</span>
+        <input name="img" type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input name="title" class="file-path validate" type="text">
+      </div>
+    </div>
+    <button type="submit" class="btn">Submit</button>
+    </form>
+    <br>
+  </div>
+  
+</body>
+</html>
