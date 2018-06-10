@@ -1,4 +1,4 @@
-# Lab 18 - Oauth (Auth Server)
+# Lab 18 - Oauth (Web Server)
 
 This is Ben and Mike's simple file upload site that uses Facebook's Oauth 2.0 and Mongo's MLab add-on via Heroku. Currently, it is in development mode and only accepts valid test users.
 
